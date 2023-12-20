@@ -37,9 +37,6 @@ a {
 }
 
 /* Header Design */
-header {
-  /* border: 1px solid red; */
-}
 
 header .wrapper {
   display: flex;
