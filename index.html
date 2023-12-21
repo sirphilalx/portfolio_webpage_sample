@@ -6,25 +6,29 @@
     <title>Sample WebPage Portfolio</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/work.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
   </head>
   <body>
-    <header>
-      <div class="wrapper">
-        <a href="#" class="logo">PW_</a>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div class="headerrr">
+      <header class="fixed-header">
+        <div class="wrapper">
+          <a href="#" class="logo">PW_</a>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
     <main>
       <!-- Hero Section -->
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="wrapper">
           <div class="description">
             <div class="socials">
@@ -56,7 +60,7 @@
       </section>
 
       <!-- About Section -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="wrapper">
           <div class="about_header">
             <h4>About</h4>
@@ -64,7 +68,7 @@
             <p>Check me out on different places where I appear on the web...</p>
           </div>
           <div class="skills">
-            <div class="skills__item">
+            <div class="skills__item gradient-border">
               <div class="skill-image">
                 <svg xmlns="http://www.w3.org/2000/svg" width="98" height="96">
                   <path
@@ -201,14 +205,87 @@
       </section>
 
       <!-- Work Section -->
-      <section class="work"></section>
+      <section class="work" id="work">
+        <div class="wrapper">
+          <h2>A quick introductory video for my portfolio visitors</h2>
+          <div style="position: relative; padding-bottom: 3rem; height: 450px">
+            <iframe
+              src="https://www.loom.com/embed/8dad2af1d64e4365bc870b31f438d5fb?sid=ec1c5f66-024a-4c68-af6e-16f6edd476bc"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
       <!-- Resume Section -->
-      <section class="resume"></section>
+      <section class="resume" id="resume">
+        <div class="wrapper">
+          <h2>Click the button below to download resume</h2>
+          <div class="download-cv">
+            <a href="path/to/your-cv.pdf" id="downloadButton" download
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </section>
 
       <!-- Contact Section -->
-      <section class="contact"></section>
+      <section class="contact" id="contact">
+        <div class="wrapper">
+          <h2>Contact this freelancer</h2>
+          <form action="#">
+            <div class="form_field">
+              <label for="name">Name:</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="form_field">
+              <label for="email">Email:</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="form_field">
+              <label for="tel">Phone Number:</label>
+              <input type="tel" id="tel" />
+            </div>
+            <div class="form_field">
+              <label for="message">Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="20"
+                placeholder="type your message here"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer_bottom">
+          <h6>copyright &copy; 2023</h6>
+          <p>Website designed by EasyPass Solutions</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
