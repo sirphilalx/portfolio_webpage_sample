@@ -37,12 +37,18 @@ a {
 }
 
 /* Header Design */
+/* header {
+  position: sticky;
+  top: 0;
+} */
 
 header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -61,7 +67,7 @@ nav ul li a,
 }
 
 .wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
