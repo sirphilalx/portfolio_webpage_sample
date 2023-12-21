@@ -28,6 +28,9 @@
   flex-wrap: wrap;
   gap: 3rem;
 }
+/* .gradient-border {
+  border: 1px solid linear-gradient(to right, #ff8080, #d24352, #ffcccc);
+} */
 
 .about .wrapper .skills .skills__item {
   height: 300px;

@@ -1,0 +1,82 @@
+.work {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.work .wrapper {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* border: 1px solid red; */
+}
+
+iframe {
+  border-radius: 24px;
+}
+
+/* Resuming styling code */
+.resume .wrapper {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 8rem;
+}
+#downloadButton {
+  background-color: var(--accent-clr);
+  color: #fff;
+  padding: 20px 50px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#downloadButton:hover {
+  background-color: #2980b9;
+}
+
+/* Form styling code */
+section.contact {
+  background-color: var(--bg-clr-light);
+}
+section.contact .wrapper {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.contact .wrapper form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  /* background-color: #f0f0f0;
+  box-shadow: inset 10px 10px 20px #cbcbcb, inset -10px -10px 20px #ffffff; */
+}
+section.contact .wrapper form .form_field {
+  color: var(--header-font-clr);
+  text-align: left;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+  flex-direction: column;
+}
+section.contact .wrapper form textarea,
+section.contact .wrapper form input {
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border: 1px solid var(--accent-clr);
+  color: white;
+  caret-color: var(--accent-clr);
+  padding: 1rem;
+}
