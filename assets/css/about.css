@@ -1,0 +1,46 @@
+.about .wrapper .about_header {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.about .wrapper .about_header::after {
+  content: "";
+  display: block;
+  width: 5%;
+  border: solid 1px red;
+  margin: 0 auto 2rem auto;
+}
+
+.about .wrapper .about_header h4 {
+  color: var(--accent-clr);
+  padding-bottom: 2rem;
+}
+
+.about .wrapper .about_header h2 {
+  padding-bottom: 1rem;
+}
+.about .wrapper .about_header p {
+  padding-bottom: 1.5rem;
+}
+.about .wrapper .skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.about .wrapper .skills .skills__item {
+  height: 300px;
+  width: 300px;
+  /* border: 1px solid red; */
+  background-color: var(--bg-clr-light);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .about .wrapper .skills .skills__item .skill-image svg {
+  height: 50px;
+  width: 50px;
+} */
