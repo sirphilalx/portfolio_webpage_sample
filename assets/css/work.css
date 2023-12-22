@@ -80,3 +80,15 @@ section.contact .wrapper form input {
   caret-color: var(--accent-clr);
   padding: 1rem;
 }
+
+section.contact .wrapper form button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: var(--header-font-clr);
+  background-color: var(--accent-clr);
+  border: none;
+}
+
+section.contact .wrapper form button:hover {
+  background-color: crimson;
+}
